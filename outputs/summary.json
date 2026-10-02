@@ -1,0 +1,6 @@
+{
+  "articles_used": 209014,
+  "classes": 42,
+  "best_run": "bert_fusion",
+  "best_macro_f1": 0.4886114771357461
+}

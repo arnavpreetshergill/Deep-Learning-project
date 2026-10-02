@@ -1,0 +1,10 @@
+News_Category_Dataset_v3.csv
+
+# Large, reproducible training artifacts. Keep the lightweight reports,
+# visualizations, and run metadata in version control instead.
+outputs*/data/*.npy
+outputs*/models/
+
+# Temporary Python and smoke-test artifacts.
+__pycache__/
+outputs*_smoke/

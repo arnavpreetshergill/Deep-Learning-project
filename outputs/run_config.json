@@ -1,0 +1,29 @@
+{
+  "csv_path": "News_Category_Dataset_v3.csv",
+  "output_dir": "outputs_fast_full",
+  "models": [
+    "mlp",
+    "cnn",
+    "bilstm",
+    "bert"
+  ],
+  "epochs": 1,
+  "bert_epochs": 2,
+  "batch_size": 256,
+  "bert_batch_size": 64,
+  "max_samples": 0,
+  "word_max_length": 96,
+  "bert_max_length": 96,
+  "vocab_size": 20000,
+  "tfidf_features": 12000,
+  "svd_components": 128,
+  "bert_model": "google/bert_uncased_L-4_H-256_A-4",
+  "patience": 1,
+  "learning_rate": 0.001,
+  "bert_learning_rate": 2e-05,
+  "bert_gradient_accumulation": 1,
+  "bert_warmup_ratio": 0.1,
+  "bert_weight_decay": 0.01,
+  "class_weight_power": 0.5,
+  "seed": 42
+}
